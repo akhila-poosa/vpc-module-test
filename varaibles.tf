@@ -14,7 +14,7 @@ variable "environment"{
 }
 
 variable "vpc_tags"{
-    type = map
+    type = string
     default = {
         purpose = "vpc-module-test"
         DontDelete = "true"
